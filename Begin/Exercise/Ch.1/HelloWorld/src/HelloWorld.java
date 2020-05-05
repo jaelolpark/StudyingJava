@@ -7,9 +7,26 @@
 //    }
 //}
 
+//public class HelloWorld {
+//    public static void main(String[] args) {
+//        System.out.println("Hello Codeit!");
+//    }
+//}
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello Codeit!");
+        int age;
+        age = 33;
+
+        int num = 12;
+        age = 23;
+
+        age = num;
+        num = num + 1;
+
+        System.out.print("Hello, I am ");
+        System.out.print(num);
+        System.out.println(".");
+
     }
 }
