@@ -13,20 +13,19 @@
 //    }
 //}
 
-public class HelloWorld {
-    public static void main(String[] args) {
-        int age;
-        age = 33;
-
-        int num = 12;
-        age = 23;
-
-        age = num;
-        num = num + 1;
-
-        System.out.print("Hello, I am ");
-        System.out.print(num);
-        System.out.println(".");
-
-    }
-}
+//public class HelloWorld {
+//    public static void main(String[] args) {
+//        int age;
+//        age = 33;
+//
+//        int num = 12;
+//        age = 23;
+//
+//        age = num;
+//        num = num + 1;
+//
+//        System.out.print("Hello, I am ");
+//        System.out.print(num);
+//        System.out.println(".");
+//    }
+//}
