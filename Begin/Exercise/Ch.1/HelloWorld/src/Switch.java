@@ -1,6 +1,6 @@
 public class Switch {
     public static void main(String[] args) {
-        int score = 98;
+        int score = 44;
 
         String grade;
         switch (score / 10) {
@@ -22,8 +22,28 @@ public class Switch {
             default:
                 grade = "F";
                 break;
+        }
+//==================================================
+
+        switch (grade) {
+            case "A+":
+            case "A":
+            case "B":
+                System.out.println("Good job!");
+                break;
+            case "C":
+            case "D":
+                System.out.println("Study more!");
+                break;
+            case "F":
+                System.out.println("Fail.");
+            default:
+                System.out.println("You need to retake!");
+                break;
+
+
 
         }
-        System.out.println(grade);
+        System.out.println("You are score is " + grade);
     }
 }
